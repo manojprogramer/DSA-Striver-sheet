@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class CreateLinkedList {
     public void display(Node head) {
         while(head != null) {
-            System.out.println(head.data);
+            System.out.print(head.data+" -> ");
             head = head.next;
         }
+        System.out.println("null");
     }
     public static void main(String[] args) {
         Node head = null;
@@ -29,14 +30,18 @@ public class CreateLinkedList {
 //                temp.next = newNode;
 //            }
 //        }
-        Node oneElement = new Node(10);
+        Node oneElement = new Node(1);
         head  = oneElement;
-        Node twoElement = new Node(20);
-        Node threeElement = new Node(30);
-        Node fourElement = new Node(40);
+        Node twoElement = new Node(2);
+        Node threeElement = new Node(3);
+        Node fourElement = new Node(4);
+        Node fifthElement = new Node(5);
+        Node sixthElement = new Node(6);
         oneElement.next = twoElement;
         twoElement.next  = threeElement;
         threeElement.next = fourElement;
+        fourElement.next = fifthElement;
+        fifthElement.next = sixthElement;
         CreateLinkedList c = new CreateLinkedList();
 //        c.display(head);
 //        InsertLinkedList i = new InsertLinkedList();
@@ -50,9 +55,18 @@ public class CreateLinkedList {
 //        head = d.deleteElementInLinkedList(head);
 //        DeleteAtIndexInTheLinkedList d = new DeleteAtIndexInTheLinkedList();
 //        head = d.deleteAtIndexInTheLinkedList(head,1);
-        DeleteAtEndLinkedList d = new DeleteAtEndLinkedList();
-        d.deleteAtEndLinkedList(head);
+//        DeleteAtEndLinkedList d = new DeleteAtEndLinkedList();
+//        d.deleteAtEndLinkedList(head);
+//        FindMiddleOfLinkedList f = new FindMiddleOfLinkedList();
+//        Node value = f.findMiddleOfLinkedList(head);
+//        System.out.println("Output: "+value.data);
+        ReverseLinkedList r = new ReverseLinkedList();
+//        head = r.reverseLinkedListBruteForceApproach(head);
+//        head = r.reverseLinkedListOptimalApproach(head);
+        head = r.recursiveSolution(head);
         c.display(head);
+
+
     }
 
 }
