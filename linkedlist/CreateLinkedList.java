@@ -34,14 +34,30 @@ public class CreateLinkedList {
         head  = oneElement;
         Node twoElement = new Node(2);
         Node threeElement = new Node(3);
-        Node fourElement = new Node(4);
-        Node fifthElement = new Node(5);
-        Node sixthElement = new Node(6);
+//        Node fourElement = new Node(4);
+//        Node fifthElement = new Node(5);
+//        Node sixthElement = new Node(6);
         oneElement.next = twoElement;
         twoElement.next  = threeElement;
-        threeElement.next = fourElement;
-        fourElement.next = fifthElement;
-        fifthElement.next = sixthElement;
+//        threeElement.next = fourElement;
+//        fourElement.next = fifthElement;
+//        fifthElement.next = sixthElement;
+
+        Node head2 = null;
+        Node oneElement1 = new Node(4);
+        head2  = oneElement1;
+        Node twoElement1 = new Node(5);
+        Node threeElement1 = new Node(6);
+//        Node fourElement1 = new Node(3);
+//        Node fifthElement1= new Node(3);
+//        Node sixthElement1 = new Node(10);
+        oneElement1.next = twoElement1;
+        twoElement1.next  = threeElement1;
+//        threeElement1.next = fourElement1;
+//        fourElement1.next = fifthElement1;
+//        fifthElement1.next = sixthElement1;
+
+
         CreateLinkedList c = new CreateLinkedList();
 //        c.display(head);
 //        InsertLinkedList i = new InsertLinkedList();
@@ -49,7 +65,7 @@ public class CreateLinkedList {
 //        c.display(head);
 //        InsertAtIndexInTheLinkedList in = new InsertAtIndexInTheLinkedList();
 //        head = in.insertAtIndexInTheLinkedList(head,5);
-        InsertAtEndInTheLinkedList in = new InsertAtEndInTheLinkedList();
+//        InsertAtEndInTheLinkedList in = new InsertAtEndInTheLinkedList();
 //        in.insertAtEndInTheLinkedList(head);
 //        DeleteElementInLinkedList d = new DeleteElementInLinkedList();
 //        head = d.deleteElementInLinkedList(head);
@@ -60,11 +76,20 @@ public class CreateLinkedList {
 //        FindMiddleOfLinkedList f = new FindMiddleOfLinkedList();
 //        Node value = f.findMiddleOfLinkedList(head);
 //        System.out.println("Output: "+value.data);
-        ReverseLinkedList r = new ReverseLinkedList();
+//        ReverseLinkedList r = new ReverseLinkedList();
 //        head = r.reverseLinkedListBruteForceApproach(head);
 //        head = r.reverseLinkedListOptimalApproach(head);
-        head = r.recursiveSolution(head);
-        c.display(head);
+//        head = r.recursiveSolution(head);
+//        MergeTwoSortedLists m = new MergeTwoSortedLists();
+//        head = m.mergeTwoSortedListsBruteForceApproach(head,head2);
+//        head = m.mergeTwoSortedListsOptimalApproach(head,head2);
+//        RemoveNthNodeFromTheBackOfLinkedList r = new RemoveNthNodeFromTheBackOfLinkedList();
+//        c.display(head);
+//        head = r.removeNthNodeFromTheBackOfLinkedListBruteForceApproach(head,1);
+//        head = r.removeNthNodeFromTheBackOfLinkedListOptimalApproach(head,6);
+        AddTwoNumbersInLinkedList a = new AddTwoNumbersInLinkedList();
+        a.addTwoNumbersInLinkedList(head,head2);
+//        c.display(head);
 
 
     }
