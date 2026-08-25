@@ -34,14 +34,14 @@ public class CreateLinkedList {
         head  = oneElement;
         Node twoElement = new Node(2);
         Node threeElement = new Node(3);
-//        Node fourElement = new Node(4);
-//        Node fifthElement = new Node(5);
-//        Node sixthElement = new Node(6);
+        Node fourElement = new Node(4);
+        Node fifthElement = new Node(5);
+        Node sixthElement = new Node(6);
         oneElement.next = twoElement;
         twoElement.next  = threeElement;
-//        threeElement.next = fourElement;
-//        fourElement.next = fifthElement;
-//        fifthElement.next = sixthElement;
+        threeElement.next = fourElement;
+        fourElement.next = fifthElement;
+        fifthElement.next = sixthElement;
 
         Node head2 = null;
         Node oneElement1 = new Node(4);
@@ -87,9 +87,11 @@ public class CreateLinkedList {
 //        c.display(head);
 //        head = r.removeNthNodeFromTheBackOfLinkedListBruteForceApproach(head,1);
 //        head = r.removeNthNodeFromTheBackOfLinkedListOptimalApproach(head,6);
-        AddTwoNumbersInLinkedList a = new AddTwoNumbersInLinkedList();
-        a.addTwoNumbersInLinkedList(head,head2);
-//        c.display(head);
+//        AddTwoNumbersInLinkedList a = new AddTwoNumbersInLinkedList();
+//        head =  a.addTwoNumbersInLinkedList(head,head2);
+        DeleteNodeInAListO1Complexity d = new DeleteNodeInAListO1Complexity();
+        d.deleteNodeInAListO1Complexity(head.next.next.next.next.next);
+        c.display(head);
 
 
     }

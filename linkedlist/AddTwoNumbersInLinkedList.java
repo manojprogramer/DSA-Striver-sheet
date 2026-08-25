@@ -1,24 +1,30 @@
 package com.manoj.linkedlist;
 
 public class AddTwoNumbersInLinkedList {
-    public void addTwoNumbersInLinkedList(Node head1, Node head2){
-        StringBuilder first = new StringBuilder();
-        StringBuilder second = new StringBuilder();
+    public Node addTwoNumbersInLinkedList(Node head1, Node head2){
+        Node dummyNode = new Node(-1);
+        Node temp = dummyNode;
+        int carry = 0;
+        int sum = 0;
+        while(head1 != null || head2 != null){
+            sum = 0;
+            if(head1 != null){
+                sum += head1.data;
+                head1 = head1.next;
+            }
+            if(head2 != null) {
+                sum += head2.data;
+                head2 = head2.next;
+            }
+            sum = sum+carry;
+            carry = sum/10;
+            int value = sum%10;
 
-        Node temp = head1;
-        while(temp != null) {
-            first.append(temp.data);
-            temp = temp.next;
+            Node newNode = new Node(value);
+            temp.next = newNode;
+            temp = newNode;
         }
-        temp = head2;
-        while(temp != null) {
-            second.append(temp.data);
-            temp = temp.next;
-        }
-        first.reverse();
-        second.reverse();
-        int sol = Integer.parseInt(String.valueOf(first))+Integer.parseInt(String.valueOf(second));
-        System.out.println(sol);
+        return dummyNode.next;
 
     }
 }
