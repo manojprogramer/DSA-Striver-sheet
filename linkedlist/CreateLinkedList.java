@@ -42,20 +42,21 @@ public class CreateLinkedList {
         threeElement.next = fourElement;
         fourElement.next = fifthElement;
         fifthElement.next = sixthElement;
+//        sixthElement.next = threeElement;
 
         Node head2 = null;
-        Node oneElement1 = new Node(4);
+        Node oneElement1 = new Node(7);
         head2  = oneElement1;
-        Node twoElement1 = new Node(5);
-        Node threeElement1 = new Node(6);
-//        Node fourElement1 = new Node(3);
-//        Node fifthElement1= new Node(3);
-//        Node sixthElement1 = new Node(10);
+        Node twoElement1 = new Node(8);
+        Node threeElement1 = new Node(9);
+        Node fourElement1 = new Node(4);
+        Node fifthElement1= new Node(5);
+        Node sixthElement1 = new Node(6);
         oneElement1.next = twoElement1;
         twoElement1.next  = threeElement1;
-//        threeElement1.next = fourElement1;
-//        fourElement1.next = fifthElement1;
-//        fifthElement1.next = sixthElement1;
+        threeElement1.next = fourElement1;
+        fourElement1.next = fifthElement1;
+        fifthElement1.next = sixthElement1;
 
 
         CreateLinkedList c = new CreateLinkedList();
@@ -89,9 +90,19 @@ public class CreateLinkedList {
 //        head = r.removeNthNodeFromTheBackOfLinkedListOptimalApproach(head,6);
 //        AddTwoNumbersInLinkedList a = new AddTwoNumbersInLinkedList();
 //        head =  a.addTwoNumbersInLinkedList(head,head2);
-        DeleteNodeInAListO1Complexity d = new DeleteNodeInAListO1Complexity();
-        d.deleteNodeInAListO1Complexity(head.next.next.next.next.next);
+//        DeleteNodeInAListO1Complexity d = new DeleteNodeInAListO1Complexity();
+//        d.deleteNodeInAListO1Complexity(head.next.next.next.next.next);
+//        FindTheIntersectionPointOfLL f  = new FindTheIntersectionPointOfLL();
+//        head = f.findTheIntersectionPointOfLLBruteForceApproach(head,head2);
+//        head = f.findTheIntersectionPointOfLLBetterApproach(head,head2);
+//        head = f.findIntersectionPointOfLLOptimalApproach(head,head2);
+//        DetectALoopInLL d = new DetectALoopInLL();
+//        System.out.println(d.detectALoopInLLBruteForceApproach(head));
+//        System.out.println(d.detectALoopInLLOptimalApproach(head));
+        ReverseLLInGroupOfK r = new ReverseLLInGroupOfK();
+        head = r.reverseLLInGroupOfK(head,3);
         c.display(head);
+
 
 
     }
