@@ -6,9 +6,21 @@ public class CreateLinkedList {
     public void display(Node head) {
         while(head != null) {
             System.out.print(head.data+" -> ");
-            head = head.next;
+            head = head.child;
         }
         System.out.println("null");
+    }
+    public void display2(Node head){
+        while(head != null){
+            Node temp = head;
+            while(temp != null) {
+                System.out.println(temp.data);
+                System.out.println("|");
+                temp = temp.child;
+            }
+            System.out.println("null");
+            head = head.next;
+        }
     }
     public static void main(String[] args) {
         Node head = null;
@@ -34,15 +46,37 @@ public class CreateLinkedList {
         head  = oneElement;
         Node twoElement = new Node(2);
         Node threeElement = new Node(3);
-        Node fourElement = new Node(4);
-        Node fifthElement = new Node(5);
-        Node sixthElement = new Node(6);
+        Node fourElement = new Node(3);
+        Node fifthElement = new Node(2);
+        Node sixthElement = new Node(1);
         oneElement.next = twoElement;
         twoElement.next  = threeElement;
         threeElement.next = fourElement;
         fourElement.next = fifthElement;
         fifthElement.next = sixthElement;
 //        sixthElement.next = threeElement;
+
+        oneElement.child = null;
+
+        Node twoChildElement = new Node(10);
+        Node twoChildElement2 = new Node(11);
+        twoElement.child = twoChildElement;
+        twoChildElement.child = twoChildElement2;
+
+
+        Node threeChildElement = new Node(7);
+        Node threeChildElement2 = new Node(11);
+        Node threeChildElement3 = new Node(12);
+        threeElement.child = threeChildElement;
+        threeChildElement.child = threeChildElement2;
+        threeChildElement2.child = threeChildElement3;
+
+        fourElement.child = new Node(9);
+
+        Node fifthChildElement = new Node(6);
+        Node fifthChildElement2 = new Node(8);
+        fifthElement.child = fifthChildElement;
+        fifthChildElement.child = fifthChildElement2;
 
         Node head2 = null;
         Node oneElement1 = new Node(7);
@@ -99,12 +133,20 @@ public class CreateLinkedList {
 //        DetectALoopInLL d = new DetectALoopInLL();
 //        System.out.println(d.detectALoopInLLBruteForceApproach(head));
 //        System.out.println(d.detectALoopInLLOptimalApproach(head));
-        ReverseLLInGroupOfK r = new ReverseLLInGroupOfK();
-        head = r.reverseLLInGroupOfK(head,3);
+//        ReverseLLInGroupOfK r = new ReverseLLInGroupOfK();
+//        head = r.reverseLLInGroupOfK(head,3);
+//        CheckIfLLIsPalindromeOrNot p = new CheckIfLLIsPalindromeOrNot();
+//        System.out.println(p.checkIfLLIsPalindromeOrNotBruteForceApproach(head));
+//        System.out.println(p.checkIfLLIsPalindromeOrNotOptimalApproach(head));
+//        FindTheStartingPointInLL f = new FindTheStartingPointInLL();
+//        head = f.findTheStartingPointInLLBruteForceApproach(head);
+//        head = f.findTheStartingPointInLLOptimalApproach(head);
+//        System.out.println(head.data);
+        FlatteningOfLL f = new FlatteningOfLL();
+//        head = f.flatteningOfLLBruteForceApproach(head);
+        head = f.flatteningOfLLOptimalApproach(head);
         c.display(head);
-
-
-
+//        c.display2(head);
     }
 
 }
