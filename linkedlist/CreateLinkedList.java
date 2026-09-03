@@ -6,7 +6,7 @@ public class CreateLinkedList {
     public void display(Node head) {
         while(head != null) {
             System.out.print(head.data+" -> ");
-            head = head.child;
+            head = head.next;
         }
         System.out.println("null");
     }
@@ -46,14 +46,14 @@ public class CreateLinkedList {
         head  = oneElement;
         Node twoElement = new Node(2);
         Node threeElement = new Node(3);
-        Node fourElement = new Node(3);
-        Node fifthElement = new Node(2);
-        Node sixthElement = new Node(1);
+        Node fourElement = new Node(4);
+        Node fifthElement = new Node(5);
+//        Node sixthElement = new Node(1);
         oneElement.next = twoElement;
         twoElement.next  = threeElement;
         threeElement.next = fourElement;
         fourElement.next = fifthElement;
-        fifthElement.next = sixthElement;
+//        fifthElement.next = sixthElement;
 //        sixthElement.next = threeElement;
 
         oneElement.child = null;
@@ -142,9 +142,11 @@ public class CreateLinkedList {
 //        head = f.findTheStartingPointInLLBruteForceApproach(head);
 //        head = f.findTheStartingPointInLLOptimalApproach(head);
 //        System.out.println(head.data);
-        FlatteningOfLL f = new FlatteningOfLL();
+//        FlatteningOfLL f = new FlatteningOfLL();
 //        head = f.flatteningOfLLBruteForceApproach(head);
-        head = f.flatteningOfLLOptimalApproach(head);
+//        head = f.flatteningOfLLOptimalApproach(head);
+        RotateLL r = new RotateLL();
+        head = r.rotateLL(head,2);
         c.display(head);
 //        c.display2(head);
     }
