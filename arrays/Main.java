@@ -10,8 +10,7 @@ public class Main {
 //        RemoveDuplicatesFromSortedArray r = new RemoveDuplicatesFromSortedArray();
 //        System.out.println(r.removeDuplicatesFromSortedArrayOptimalApproach(nums));
 //        System.out.println(r.remoteDuplicatesFromSortedArray(nums));
-        MaximumConsecutiveOnes m = new MaximumConsecutiveOnes();
-        System.out.println(m.maximumConsecutiveOnes(nums));
+//        MaximumConsecutiveOnes m = new MaximumConsecutiveOnes();
+//        System.out.println(m.maximumConsecutiveOnes(nums));
     }
-
 }
