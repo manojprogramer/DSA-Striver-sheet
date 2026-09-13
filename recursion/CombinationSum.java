@@ -1,7 +1,9 @@
 package com.manoj.recursion;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] arr,int target){
@@ -12,6 +14,7 @@ public class CombinationSum {
     public void combination(int index,int[] arr, int target, List<Integer>list, List<List<Integer>>ans){
         if(index == arr.length){
             if(target == 0) {
+                Collections.sort(list);
                 ans.add(new ArrayList<>(list));
             }
             return;
