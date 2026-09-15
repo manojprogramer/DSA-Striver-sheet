@@ -13,8 +13,10 @@ public class Main {
 //        CombinationSumII c = new CombinationSumII();
 //        System.out.println(c.combinationSumIIBruteForceApproach(nums,8));
 //        System.out.println(c.combinationSumIIOptimalApproach(nums,8));
-        PalindromePartitioning p = new PalindromePartitioning();
-        System.out.println(p.palindromePartitioning(s));
+//        PalindromePartitioning p = new PalindromePartitioning();
+//        System.out.println(p.palindromePartitioning(s));
+        PermutationSequence p = new PermutationSequence();
+        System.out.println(p.permutationSequence(3,5));
 
     }
 }
