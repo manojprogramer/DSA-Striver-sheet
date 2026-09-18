@@ -7,9 +7,11 @@ public class Main {
 //        PrintPermutations p = new PrintPermutations();
 //        System.out.println(p.printPermutationsBruteForceApproach(nums));
 //        System.out.println(p.printPermutationsOptimalApproach(nums));
-        PermutationsOfString p = new PermutationsOfString();
+//        PermutationsOfString p = new PermutationsOfString();
 //        System.out.println(p.permutationOfStringBruteForceApproach(string));
-        System.out.println(p.permutationsOfStringOptimalApproach(string));
+//        System.out.println(p.permutationsOfStringOptimalApproach(string));
+        NQueenProblem n = new NQueenProblem();
+        System.out.println(n.nQueen(4));
 
     }
 }
