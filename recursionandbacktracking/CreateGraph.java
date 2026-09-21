@@ -7,12 +7,12 @@ import java.util.List;
 public class CreateGraph {
     public void createGraphUsingList(int V, int[][] edges){
         List<List<Integer>> matrix = new ArrayList<>();
-        for(int i = 0; i <= V; i++){
+        for(int i = 0; i < V+1; i++){
             matrix.add(new ArrayList<>(Collections.nCopies(V+1,0)));
         }
-        for(int[] it : edges){
-            int u = it[0];
-            int v = it[1];
+        for(int[] e : edges){
+            int u = e[0];
+            int v = e[1];
             matrix.get(u).set(v,1);
             matrix.get(v).set(u,1);
         }
@@ -34,5 +34,6 @@ public class CreateGraph {
             System.out.println();
         }
     }
+
 
 }
