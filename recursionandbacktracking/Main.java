@@ -11,6 +11,12 @@ public class Main {
                 {3, 0},
                 {0, 2}
         };
+        int[][] maze = {
+                {1, 0, 0, 0},
+                {1, 1, 0, 1},
+                {1, 1, 0, 0},
+                {0, 1, 1, 1}
+        };
         char[][] board = {
                 {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
                 {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
@@ -38,7 +44,10 @@ public class Main {
 //            }
 //            System.out.println();
 //        }
-        MColoringProblem m = new MColoringProblem();
-        System.out.println(m.mColoringProblem(4,1,edges));
+//        MColoringProblem m = new MColoringProblem();
+//        System.out.println(m.mColoringProblem(4,1,edges));
+
+        RatInMaze r = new RatInMaze();
+        System.out.println(r.ratInMaze(maze));
     }
 }
