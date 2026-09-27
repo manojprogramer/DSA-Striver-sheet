@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6};
+        int[] nums = {1, 2, 6, 3, 4, 5, 6};
 //        LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -21,10 +21,13 @@ public class Main {
 //        System.out.println(s.searchElementInSortedArrayIIBruteForceApproach(nums,100));
 //        FindMinimumInRotatedSortedArray f = new FindMinimumInRotatedSortedArray();
 //        System.out.println(f.findMinimumInRotatedSortedArray(nums));
-        SingleElementInSortedArray s =new SingleElementInSortedArray();
+//        SingleElementInSortedArray s =new SingleElementInSortedArray();
 //        System.out.println(s.singleElementInSortedArrayBruteForceApproach(nums));
-        System.out.println(s.singleElementInSortedArrayOptimalApproach(nums));
+//        System.out.println(s.singleElementInSortedArrayOptimalApproach(nums));
 
+        FindPeekElement f = new FindPeekElement();
+//        System.out.println(f.findPeakElementBruteForceApproach(nums));
+        System.out.println(f.findPeakElementOptimalApproach(nums));
 
     }
 }
