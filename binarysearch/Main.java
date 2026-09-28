@@ -25,9 +25,11 @@ public class Main {
 //        System.out.println(s.singleElementInSortedArrayBruteForceApproach(nums));
 //        System.out.println(s.singleElementInSortedArrayOptimalApproach(nums));
 
-        FindPeekElement f = new FindPeekElement();
+//        FindPeekElement f = new FindPeekElement();
 //        System.out.println(f.findPeakElementBruteForceApproach(nums));
-        System.out.println(f.findPeakElementOptimalApproach(nums));
-
+//        System.out.println(f.findPeakElementOptimalApproach(nums));
+        FindSquareRootOfNumber f = new FindSquareRootOfNumber();
+//        System.out.println(f.findSquareRootOfNumberOptimalApproach(1291937368));
+        System.out.println(f.findSquareRootOfNumberBruteForceApproach(1291937368));
     }
 }
