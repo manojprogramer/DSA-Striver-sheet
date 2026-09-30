@@ -65,7 +65,8 @@ public class FourSum {
                     if(sum < target) k++;
                     else if(sum > target) l--;
                     else {
-                        List<Integer> list = new ArrayList<>();
+
+                        List<Integer> list  = new ArrayList<>();
                         list.add(nums[i]);
                         list.add(nums[j]);
                         list.add(nums[k]);

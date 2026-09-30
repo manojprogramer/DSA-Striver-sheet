@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 6, 3, 4, 5, 6};
+        int[] nums = {5, 6, 7, 1, 2, 6, 3, 4};
 //        LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -28,8 +28,10 @@ public class Main {
 //        FindPeekElement f = new FindPeekElement();
 //        System.out.println(f.findPeakElementBruteForceApproach(nums));
 //        System.out.println(f.findPeakElementOptimalApproach(nums));
-        FindSquareRootOfNumber f = new FindSquareRootOfNumber();
+//        FindSquareRootOfNumber f = new FindSquareRootOfNumber();
 //        System.out.println(f.findSquareRootOfNumberOptimalApproach(1291937368));
-        System.out.println(f.findSquareRootOfNumberBruteForceApproach(1291937368));
+//        System.out.println(f.findSquareRootOfNumberBruteForceApproach(1291937368));
+        FindHowManyTimesTheArrayIsRotated f = new FindHowManyTimesTheArrayIsRotated();
+        System.out.println(f.findHowManyTimesTheArrayIsRotated(nums));
     }
 }

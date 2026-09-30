@@ -12,5 +12,7 @@ public class Main {
 //        System.out.println(r.remoteDuplicatesFromSortedArray(nums));
 //        MaximumConsecutiveOnes m = new MaximumConsecutiveOnes();
 //        System.out.println(m.maximumConsecutiveOnes(nums));
+        RomanInteger r = new RomanInteger();
+        System.out.println(r.romanInteger("MCX"));
     }
 }
