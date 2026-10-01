@@ -12,7 +12,11 @@ public class Main {
 //        System.out.println(r.remoteDuplicatesFromSortedArray(nums));
 //        MaximumConsecutiveOnes m = new MaximumConsecutiveOnes();
 //        System.out.println(m.maximumConsecutiveOnes(nums));
-        RomanInteger r = new RomanInteger();
-        System.out.println(r.romanInteger("MCX"));
+//        RomanInteger r = new RomanInteger();
+//        System.out.println(r.romanInteger("MCX"));
+//        MaximumSubArray m = new MaximumSubArray();
+//        System.out.println(m.maximumSubArrayOptimalApproach(nums));
+        MinimumSizeSubArray m = new MinimumSizeSubArray();
+        System.out.println(m.minimumSizeSubArrayOptimalApproach(nums,9));
     }
 }
