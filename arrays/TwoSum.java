@@ -1,6 +1,5 @@
 package com.manoj.arrays;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,20 +16,21 @@ public class TwoSum {
         }
         return new int[]{};
     }
-    public void twoSumBetterApproach(int[] nums, int target) {
+    public int[] twoSumBetterApproach(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++) {
             int value = target-nums[i];
 
-            if(!map.isEmpty() && map.containsKey(value)) {
-                System.out.println("Entering");
-//                return new int[]{i,map.get(value)}
+            if(map.containsKey(value)) {
+                return new int[]{map.get(value),i};
             }
             else {
+
                 map.put(nums[i], i);
             }
         }
-//        return new int[]{};
+
+        return new int[]{};
 
     }
     public int[] twoSumOptimalApproach(int[] nums, int target) {

@@ -20,6 +20,7 @@ public class LongestConsecutiveSequence {
         System.out.println(longest);
     }
     public void longestConsecutiveLinearSearch(int[] nums) {
+        Set<Integer> set = new HashSet<>();
         Arrays.sort(nums);
         int lastElement = Integer.MIN_VALUE;
         int count = 1;
