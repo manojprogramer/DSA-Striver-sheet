@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
+        int[] nums = {2, 7, 11, -15};
         TwoSum t = new TwoSum();
 //        int[] arr = t.twoSumBetterApproach(nums,9);
 //        System.out.println(Arrays.toString(arr));
@@ -23,5 +23,7 @@ public class Main {
 //        System.out.println(m.maximumSubArrayOptimalApproach(nums));
 //        MinimumSizeSubArray m = new MinimumSizeSubArray();
 //        System.out.println(m.minimumSizeSubArrayOptimalApproach(nums,9));
+        MaximumSubArraySumAfterOneOperation m = new MaximumSubArraySumAfterOneOperation();
+        System.out.println(m.maximumSubArraySumAfterOneOperation(nums));
     }
 }
