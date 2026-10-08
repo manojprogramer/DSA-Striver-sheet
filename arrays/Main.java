@@ -23,7 +23,10 @@ public class Main {
 //        System.out.println(m.maximumSubArrayOptimalApproach(nums));
 //        MinimumSizeSubArray m = new MinimumSizeSubArray();
 //        System.out.println(m.minimumSizeSubArrayOptimalApproach(nums,9));
-        MaximumSubArraySumAfterOneOperation m = new MaximumSubArraySumAfterOneOperation();
-        System.out.println(m.maximumSubArraySumAfterOneOperation(nums));
+//        MaximumSubArraySumAfterOneOperation m = new MaximumSubArraySumAfterOneOperation();
+//        System.out.println(m.maximumSubArraySumAfterOneOperation(nums));
+        HighestOccurElement h = new HighestOccurElement();
+        h.highestOccurElement(nums);
+
     }
 }
