@@ -31,7 +31,9 @@ public class Main {
 //        FindSquareRootOfNumber f = new FindSquareRootOfNumber();
 //        System.out.println(f.findSquareRootOfNumberOptimalApproach(1291937368));
 //        System.out.println(f.findSquareRootOfNumberBruteForceApproach(1291937368));
-        FindHowManyTimesTheArrayIsRotated f = new FindHowManyTimesTheArrayIsRotated();
-        System.out.println(f.findHowManyTimesTheArrayIsRotated(nums));
+//        FindHowManyTimesTheArrayIsRotated f = new FindHowManyTimesTheArrayIsRotated();
+//        System.out.println(f.findHowManyTimesTheArrayIsRotated(nums));
+        FindNthRootOfNumber f = new FindNthRootOfNumber();
+        System.out.println(f.findNthRootOfNumber(9,512));
     }
 }
