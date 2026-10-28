@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {5, 6, 7, 1, 2, 6, 3, 4};
+        int[] nums = {1, 10, 3, 10, 2};
 //        LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -33,7 +33,10 @@ public class Main {
 //        System.out.println(f.findSquareRootOfNumberBruteForceApproach(1291937368));
 //        FindHowManyTimesTheArrayIsRotated f = new FindHowManyTimesTheArrayIsRotated();
 //        System.out.println(f.findHowManyTimesTheArrayIsRotated(nums));
-        FindNthRootOfNumber f = new FindNthRootOfNumber();
-        System.out.println(f.findNthRootOfNumber(9,512));
+//        FindNthRootOfNumber f = new FindNthRootOfNumber();
+//        System.out.println(f.findNthRootOfNumber(9,512));
+//        MinimumDaysToMakeMBouquets m = new MinimumDaysToMakeMBouquets();
+//        System.out.println( m.minimumDaysToMakeMBouquetsBruteForceApproach(nums,3,2));
+//        System.out.println(m.minimumDaysToMakeMBouquetsOptimalApproach(nums,3,2));
     }
 }
