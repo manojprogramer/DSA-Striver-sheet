@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, 10, 3, 10, 2};
+        int[] nums = {3, 5, 7, 10};
 //        LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -38,5 +38,11 @@ public class Main {
 //        MinimumDaysToMakeMBouquets m = new MinimumDaysToMakeMBouquets();
 //        System.out.println( m.minimumDaysToMakeMBouquetsBruteForceApproach(nums,3,2));
 //        System.out.println(m.minimumDaysToMakeMBouquetsOptimalApproach(nums,3,2));
+//        CapacityToShipPackagesWithInDDays c  = new CapacityToShipPackagesWithInDDays();
+//        System.out.println(c.capacityToShipPackagesWithInDDaysBruteForceApproach(nums,5));
+//        System.out.println(c.capacityToShipPackagesWithInDDaysOptimalApproach(nums,5));
+        KthMissingNumber k = new KthMissingNumber();
+        System.out.println(k.kthMissingNumberBruteForceApproach(nums,6));
+        System.out.println(k.kthMissingNumberOptimalApproach(nums,6));
     }
 }
