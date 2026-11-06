@@ -2,8 +2,8 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {3, 5, 7, 10};
-//        LowerBound l = new LowerBound();
+        int[] nums = {12, 34, 67, 90};
+//         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
 //        int[] arr = f.floorAndCeilSortedArray(nums,8);
@@ -41,8 +41,14 @@ public class Main {
 //        CapacityToShipPackagesWithInDDays c  = new CapacityToShipPackagesWithInDDays();
 //        System.out.println(c.capacityToShipPackagesWithInDDaysBruteForceApproach(nums,5));
 //        System.out.println(c.capacityToShipPackagesWithInDDaysOptimalApproach(nums,5));
-        KthMissingNumber k = new KthMissingNumber();
-        System.out.println(k.kthMissingNumberBruteForceApproach(nums,6));
-        System.out.println(k.kthMissingNumberOptimalApproach(nums,6));
+//        KthMissingNumber k = new KthMissingNumber();
+//        System.out.println(k.kthMissingNumberBruteForceApproach(nums,6));
+//        System.out.println(k.kthMissingNumberOptimalApproach(nums,6));
+//        AggressiveCows a = new AggressiveCows();
+//        System.out.println(a.aggressiveCowsBruteForceApproach(nums,2));
+//        System.out.println(a.aggressiveCowsOptimalApproach(nums,2));
+        AllocateMinimumNoOfPages allocateMinimumNoOfPages = new AllocateMinimumNoOfPages();
+        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesBruteForceApproach(nums,2));
+        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesOptimalApproach(nums,2));
     }
 }
