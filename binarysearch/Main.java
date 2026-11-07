@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {12, 34, 67, 90};
+        int[] nums = {1,10};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -47,8 +47,12 @@ public class Main {
 //        AggressiveCows a = new AggressiveCows();
 //        System.out.println(a.aggressiveCowsBruteForceApproach(nums,2));
 //        System.out.println(a.aggressiveCowsOptimalApproach(nums,2));
-        AllocateMinimumNoOfPages allocateMinimumNoOfPages = new AllocateMinimumNoOfPages();
-        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesBruteForceApproach(nums,2));
-        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesOptimalApproach(nums,2));
+//        AllocateMinimumNoOfPages allocateMinimumNoOfPages = new AllocateMinimumNoOfPages();
+//        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesBruteForceApproach(nums,2));
+//        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesOptimalApproach(nums,2));
+
+        PaintersPartition p =new PaintersPartition();
+        System.out.println(p.painterPartitionBruteForceApproach(nums,2,5));;
+        System.out.println(p.painterPartitionOptimalApproach(nums,2,5));;
     }
 }
