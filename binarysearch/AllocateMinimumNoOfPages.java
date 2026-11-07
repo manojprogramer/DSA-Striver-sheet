@@ -24,11 +24,12 @@ public class AllocateMinimumNoOfPages {
             max = Math.max(max,pages[i]);
         }
         int low = max, high = sum;
+        int ans = 0;
         while(low <= high){
             int mid = (low+high)/2;
             int countStudents = findStudents(pages,mid);
-            if(countStudents > m) high = mid-1;
-            else low = mid+1;
+            if(countStudents <= m) high = mid-1;
+            else  low = mid+1;
         }
         return low;
     }
