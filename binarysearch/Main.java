@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1,10};
+        int[] nums = {1, 2, 3, 4, 5,6,7,8,9,10};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -50,9 +50,17 @@ public class Main {
 //        AllocateMinimumNoOfPages allocateMinimumNoOfPages = new AllocateMinimumNoOfPages();
 //        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesBruteForceApproach(nums,2));
 //        System.out.println(allocateMinimumNoOfPages.allocateMinimumNoOfPagesOptimalApproach(nums,2));
+//
+//        PaintersPartition p =new PaintersPartition();
+//        System.out.println(p.painterPartitionBruteForceApproach(nums,2,5));;
+//        System.out.println(p.painterPartitionOptimalApproach(nums,2,5));;
 
-        PaintersPartition p =new PaintersPartition();
-        System.out.println(p.painterPartitionBruteForceApproach(nums,2,5));;
-        System.out.println(p.painterPartitionOptimalApproach(nums,2,5));;
+//        SplitArrayLargestSum s = new SplitArrayLargestSum();
+//        System.out.println(s.splitArrayLargestSumBruteForceApproach(nums, 3));
+//        System.out.println(s.splitArrayLargestSumOptimalApproach(nums, 3));
+        MinimizeMaxDistanceToGasStation m = new MinimizeMaxDistanceToGasStation();
+        System.out.println(m.minimizeMaxDistanceToGasStationBruteForceApproach(nums,10));
+
+
     }
 }
