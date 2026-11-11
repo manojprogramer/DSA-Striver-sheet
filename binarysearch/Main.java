@@ -2,7 +2,7 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5,6,7,8,9,10};
+        int[] nums = {1,13,17,23};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -59,7 +59,9 @@ public class Main {
 //        System.out.println(s.splitArrayLargestSumBruteForceApproach(nums, 3));
 //        System.out.println(s.splitArrayLargestSumOptimalApproach(nums, 3));
         MinimizeMaxDistanceToGasStation m = new MinimizeMaxDistanceToGasStation();
-        System.out.println(m.minimizeMaxDistanceToGasStationBruteForceApproach(nums,10));
+        System.out.println(m.minimizeMaxDistanceToGasStationBruteForceApproach(nums,5));
+        System.out.println(m.minimizeMaxDistanceToGasStationBetterApproach(nums,5));
+
 
 
     }
