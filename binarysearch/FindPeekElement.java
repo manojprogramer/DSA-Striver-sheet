@@ -12,10 +12,7 @@ public class FindPeekElement {
     public int findPeakElementOptimalApproach(int[] nums){
         int n = nums.length;
         if(n == 1) return  0;
-        if(nums[0] > nums[1]) {
-            System.out.println("entering");
-            return 0;
-        }
+        if(nums[0] > nums[1]) return 0;
         if(n-1 > n-2) return n-1;
         int low = 1, high = n-2;
         while(low <= high){

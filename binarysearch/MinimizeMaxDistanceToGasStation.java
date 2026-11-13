@@ -55,4 +55,33 @@ public class MinimizeMaxDistanceToGasStation {
 
     return priorityQueue.peek().value1;
     }
+    public double minimizeMaxDistanceToGasStationOptimalApproach(int[] nums, int k){
+        double low = 0;
+        double high = 0;
+        double max = Double.MIN_VALUE;
+        for(int i = 0; i < nums.length-1;i++){
+            max = Math.max(max,nums[i]);
+        }
+        high = max;
+        double diff = 1e-6;
+        while((high-low) > diff){
+            double mid = (low+high)/2.0;
+            double count = noOfGasStationsRequired(nums,mid);
+            if(count > k) low = mid;
+            else high = mid;
+        }
+        return high;
+    }
+    int noOfGasStationsRequired(int[] nums, double distance){
+        int count = 0;
+        for(int i = 0; i < nums.length-1; i++){
+            int numberInBetween = (int) ((nums[i+1]-nums[i])/ distance);
+            if(numberInBetween == (numberInBetween*distance))
+            {
+                numberInBetween--;
+            }
+            count += numberInBetween;
+        }
+        return count;
+    }
 }

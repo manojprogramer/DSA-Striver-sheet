@@ -2,7 +2,8 @@ package com.manoj.binarysearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1,13,17,23};
+        int[] nums1 = {10,20,30};
+        int[] nums2 = {1, 2};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -58,9 +59,13 @@ public class Main {
 //        SplitArrayLargestSum s = new SplitArrayLargestSum();
 //        System.out.println(s.splitArrayLargestSumBruteForceApproach(nums, 3));
 //        System.out.println(s.splitArrayLargestSumOptimalApproach(nums, 3));
-        MinimizeMaxDistanceToGasStation m = new MinimizeMaxDistanceToGasStation();
-        System.out.println(m.minimizeMaxDistanceToGasStationBruteForceApproach(nums,5));
-        System.out.println(m.minimizeMaxDistanceToGasStationBetterApproach(nums,5));
+//        MinimizeMaxDistanceToGasStation m = new MinimizeMaxDistanceToGasStation();
+//        System.out.println(m.minimizeMaxDistanceToGasStationBruteForceApproach(nums,5));
+//        System.out.println(m.minimizeMaxDistanceToGasStationBetterApproach(nums,5));
+//        System.out.println(m.minimizeMaxDistanceToGasStationOptimalApproach(nums,5));
+        MedianOfTwoSortedArrays m = new MedianOfTwoSortedArrays();
+        System.out.println(m.medianOfTwoSortedArraysBruteForceApproach(nums1,nums2));
+        System.out.println(m.medianOfTwoSortedArraysOptimalApproach(nums1,nums2));
 
 
 
