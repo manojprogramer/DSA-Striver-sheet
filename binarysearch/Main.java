@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] nums1 = {10,20,30};
         int[] nums2 = {1, 2,3};
+        int[][] nums = {{1,2,3,4},{4,5,6,7},{8,9,10,11}};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -67,10 +68,17 @@ public class Main {
 //        System.out.println(m.medianOfTwoSortedArraysBruteForceApproach(nums1,nums2));
 //        System.out.println(m.medianOfTwoSortedArraysOptimalApproach(nums1,nums2));
 //        System.out.println(m.medianOfTwoSortedArraysBetterApproach(nums1,nums2));
-        KthElementOfTwoSortedArrays k = new KthElementOfTwoSortedArrays();
-        System.out.println(k.kthElementOfTwoSortedArraysBruteForceApproach(nums1,nums2,4));
-        System.out.println(k.kthElementOfTwoSortedArraysBetterApproach(nums1,nums2,4));
-        System.out.println(k.KthElementOfTwoSortedArraysOptimalApproach(nums1,nums2,4));
+//        KthElementOfTwoSortedArrays k = new KthElementOfTwoSortedArrays();
+//        System.out.println(k.kthElementOfTwoSortedArraysBruteForceApproach(nums1,nums2,4));
+//        System.out.println(k.kthElementOfTwoSortedArraysBetterApproach(nums1,nums2,4));
+//        System.out.println(k.KthElementOfTwoSortedArraysOptimalApproach(nums1,nums2,4));
+//        RowWithMaximumOnes r = new RowWithMaximumOnes();
+//        System.out.println(r.rowWithMaximumOnesBruteForceApproach(nums));
+//        System.out.println(r.rowWithMaximumOnesOptimalApproach(nums));
+        SearchIn2DMatrix s = new SearchIn2DMatrix();
+        System.out.println(s.searchIn2DMatrixBruteForceApproach(nums,100));
+        System.out.println(s.searchIn2DMatrixBetterApproach(nums,5));
+        System.out.println(s.searchIn2DMatrixOptimalApproach(nums,11));
 
 
 
