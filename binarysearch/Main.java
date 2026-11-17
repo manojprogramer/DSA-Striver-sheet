@@ -75,10 +75,19 @@ public class Main {
 //        RowWithMaximumOnes r = new RowWithMaximumOnes();
 //        System.out.println(r.rowWithMaximumOnesBruteForceApproach(nums));
 //        System.out.println(r.rowWithMaximumOnesOptimalApproach(nums));
-        SearchIn2DMatrix s = new SearchIn2DMatrix();
-        System.out.println(s.searchIn2DMatrixBruteForceApproach(nums,100));
-        System.out.println(s.searchIn2DMatrixBetterApproach(nums,5));
-        System.out.println(s.searchIn2DMatrixOptimalApproach(nums,11));
+//        SearchIn2DMatrix s = new SearchIn2DMatrix();
+//        System.out.println(s.searchIn2DMatrixBruteForceApproach(nums,100));
+//        System.out.println(s.searchIn2DMatrixBetterApproach(nums,5));
+//        System.out.println(s.searchIn2DMatrixOptimalApproach(nums,11));
+//        Search2DMatrixII s = new Search2DMatrixII();
+//        System.out.println(s.search2DMatrixIIBruteForceApproach(nums,5));
+//        System.out.println(s.search2DMatrixIIBetterApproach(nums,5));
+//        System.out.println(s.search2DMatrixIIOptimalApproach(nums,5));
+        FindPeakElementII f = new FindPeakElementII();
+//        int[] arr = f.findPeakElementIIBruteForceApproach(nums);
+//        int[] arr = f.findPeakElementIIBruteForceApproachII(nums);
+        int[] arr = f.findPeakElementIIOptimalApproach(nums);
+        for(int i : arr) System.out.println(i);
 
 
 
