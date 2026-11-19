@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] nums1 = {10,20,30};
         int[] nums2 = {1, 2,3};
-        int[][] nums = {{1,2,3,4},{4,5,6,7},{8,9,10,11}};
+        int[][] nums = {{1,2,3},{4,5,6},{8,9,10}};
 //         LowerBound l = new LowerBound();
 //        System.out.println(l.lowerBound(nums,100));
 //        FloorAndCeilSortedArray f = new FloorAndCeilSortedArray();
@@ -83,11 +83,15 @@ public class Main {
 //        System.out.println(s.search2DMatrixIIBruteForceApproach(nums,5));
 //        System.out.println(s.search2DMatrixIIBetterApproach(nums,5));
 //        System.out.println(s.search2DMatrixIIOptimalApproach(nums,5));
-        FindPeakElementII f = new FindPeakElementII();
+//        FindPeakElementII f = new FindPeakElementII();
 //        int[] arr = f.findPeakElementIIBruteForceApproach(nums);
 //        int[] arr = f.findPeakElementIIBruteForceApproachII(nums);
-        int[] arr = f.findPeakElementIIOptimalApproach(nums);
-        for(int i : arr) System.out.println(i);
+//        int[] arr = f.findPeakElementIIOptimalApproach(nums);
+//        for(int i : arr) System.out.println(i);
+
+        MedianInARowWiseSortedMatrix medianInARowWiseSortedMatrix = new MedianInARowWiseSortedMatrix();
+        System.out.println(medianInARowWiseSortedMatrix.medianInARowWiseSortedMatrixBruteForceApproach(nums));
+        System.out.println(medianInARowWiseSortedMatrix.medianInARowWiseSortedMatrixOptimalApproach(nums));
 
 
 
