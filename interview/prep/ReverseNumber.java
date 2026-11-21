@@ -1,0 +1,14 @@
+package com.manoj.interview.prep;
+
+public class ReverseNumber {
+    public int reverseNumber(int n){
+        int sum = 0;
+        while(n != 0){
+            int digit = n%10;
+            sum = sum*10+digit;
+            n = n/10;
+        }
+        return sum;
+    }
+
+}
