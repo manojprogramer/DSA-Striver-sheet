@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c374636-ca42-4df1-9e1c-7d748a795a25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/interview/prep/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/prep/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7757519138755296" />
+      <entry key="MS500" value="5.174789160606078" />
+      <entry key="S2" value="7.836876918571458" />
+      <entry key="S5" value="9.403063624754179" />
+      <entry key="S10" value="11.335671386845043" />
+      <entry key="S30" value="15.98401091431705" />
+      <entry key="S60" value="18.464828139941414" />
+      <entry key="M2" value="20.07411677590598" />
+      <entry key="M5" value="21.187625338981395" />
+      <entry key="M10" value="21.58927562787204" />
+      <entry key="M15" value="21.85839033158573" />
+      <entry key="M30" value="29.45151392863036" />
+      <entry key="H1" value="88.01504971843907" />
+      <entry key="H2" value="247.84599483182896" />
+      <entry key="H4" value="482.80173131500584" />
+      <entry key="D1" value="936.1182277486284" />
+      <entry key="W1" value="1061.186460421985" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.1187914428732216E-276" />
+      <entry key="S30" value="2.8898209897978894E-92" />
+      <entry key="S60" value="6.147766307930246E-46" />
+      <entry key="M2" value="1.2488169995191612E-22" />
+      <entry key="M5" value="1.5683361657492906E-8" />
+      <entry key="M10" value="9.186486081836197E-4" />
+      <entry key="M15" value="0.038533814088678495" />
+      <entry key="M30" value="1.800840647596116" />
+      <entry key="H1" value="13.541572236640294" />
+      <entry key="H2" value="40.940960031538985" />
+      <entry key="H4" value="77.96153940177484" />
+      <entry key="D1" value="148.01511000065491" />
+      <entry key="W1" value="167.44704277045122" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.7070231936660132" />
+      <entry key="MS500" value="5.105114843521887" />
+      <entry key="S2" value="7.793158377809474" />
+      <entry key="S5" value="9.346405028874734" />
+      <entry key="S10" value="11.276165708904996" />
+      <entry key="S30" value="15.937344079176196" />
+      <entry key="S60" value="18.433875765122156" />
+      <entry key="M2" value="20.056103901962736" />
+      <entry key="M5" value="21.179707642202217" />
+      <entry key="M10" value="21.586104442081858" />
+      <entry key="M15" value="21.894101401440654" />
+      <entry key="M30" value="31.249298047108148" />
+      <entry key="H1" value="101.54938495714356" />
+      <entry key="H2" value="288.7763299903398" />
+      <entry key="H4" value="560.7530952348307" />
+      <entry key="D1" value="1084.1301024054221" />
+      <entry key="W1" value="1228.632980233666" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3KVOpJexc5OM0jiikhRQG536Ng1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DiamondProblem.executor": "Run",
+    "Application.FibonacciSequence.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.com.manoj.interview.prep.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vinay/OneDrive/Documents/manoj-projects/DSA-Striver-sheet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.com.manoj.interview.prep.Main">
+    <configuration name="DiamondProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.interview.prep.DiamondProblem" />
+      <module name="DSA-Striver-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.interview.prep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.interview.prep.FibonacciSequence" />
+      <module name="DSA-Striver-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.interview.prep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.binarysearch.Main" />
+      <module name="DSA-Striver-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manoj.interview.prep.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.interview.prep.Main" />
+      <module name="DSA-Striver-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.interview.prep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.manoj.interview.prep.Main" />
+        <item itemvalue="Application.FibonacciSequence" />
+        <item itemvalue="Application.DiamondProblem" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c374636-ca42-4df1-9e1c-7d748a795a25" name="Changes" comment="" />
+      <created>1791639454534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791639454534</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
